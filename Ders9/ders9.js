@@ -230,4 +230,3 @@
 
 // let istenenBarkod = urunler.find(x=> x.barkotNo == 345)
 // console.log(istenenBarkod);
-
