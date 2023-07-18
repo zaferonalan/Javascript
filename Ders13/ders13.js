@@ -1,44 +1,87 @@
-//? Doom 
+//*Ödev
+//* fonksiyonun görevi => 6 haneli bir hex kodu üretmek
+//*kullanıcıya prompt ile renk üretmek istermisiniz diye sorun
+//*evet derse çıktı olarak ona RANDOM bir hex kodu üretin
+//*hayır derse herhangi birşey üretilmeden program dursun
 
-// function Topla() 
+
+//*renk üretmek istermisin => evet
+//*üretilen random renk => #ff067a
+
+
+// function hexkodUret() 
 // {
-//     let InputTopla1 = +document.querySelector(".InputTopla1").value
-//     let InputTopla2 = +document.querySelector(".InputTopla2").value
-//     let toplam = InputTopla1 + InputTopla2;
-//     document.querySelector(".Sonuc").innerHTML=`İki Sayının Toplamı :${toplam}`
+//     let degerler = ["1","2","3","4","5","6","7","8","9","0","a","b","c","d","e","f"];
+//     let hexkod ="#"
+    
+//     for (let i = 0; i < 6; i++) 
+//     {
+//         let uret = degerler[Math.floor(Math.random() * degerler.length)];
+//         hexkod+=uret;
+//     }
+    
+//     return hexkod
 // }
 
-// function Result()
-// {
-//     let userName =document.querySelector(".user").value
-//     let password =+document.querySelector(".password").value
+// let secim = prompt("Renk üretmek istermisiniz(e/h) ")
 
-//     if (userName == "admin" && password==1234) 
+// if (secim == "e") 
+// {
+//     console.log(hexkodUret())    
+// }
+    
+
+
+
+/***************************/
+
+//? renk üretmek istermisin ? => "evet"
+//? kaç adet renk üretmek istersn => 3
+//? üretilen renkler => ["#f567a4","#dda78c","#ccf09a"]
+
+
+
+// let secim = prompt("Renk üretmek istermisiniz(e/h)")
+
+
+// if (secim == "e") 
+// {
+//     let adet =+prompt("Kaç adet renk üretmek istersiniz ")
+//     console.log(hexkodUret(adet))
+// }
+// else
+//     console.log("Üretilmedi.")
+
+// function hexkodUret(x) 
+// {   
+//     let hexkodlari=[]
+//     let degerler = ["1","2","3","4","5","6","7","8","9","0","a","b","c","d","e","f"]
+
+//     for (let i = 1; i <= x; i++) 
 //     {
-//         document.querySelector(".titleResult").innerHTML=`Hoşgeldiniz...`
+//         let hexkodum ="#"
+//         for (let j = 1; j <= 6; j++) 
+//         {
+//             let randomDeg = degerler[Math.floor(Math.random() * degerler.length)]
+//             hexkodum+=randomDeg    
+//         }
+//         hexkodlari.push(hexkodum)
 //     }
-//     else
-//         document.querySelector(".titleResult").innerHTML=`Kullanıcı adı veya şifre hatalı`
+
+//     return hexkodlari
 // }
 
 
 
-// function OrtHesap()
-// {
-//     let sinav1 = +document.querySelector(".sinav1").value    
-//     let sinav2 = +document.querySelector(".sinav2").value    
-//     let sinav3 = +document.querySelector(".sinav3").value
-//     let ortalama = (sinav1 + sinav2 + sinav3) / 3
+//!funtion dom()
 
-//     if (ortalama > 50) 
-//     {
-//         document.querySelector(".mesaj").innerHTML=`geçtiniz ortalamanız: ${ortalama}`
-//         document.querySelector(".mesaj").style.color= "red";
-//     }
-//     else{
-//         document.querySelector(".mesaj").innerHTML=`kaldınız ortalamanız: ${ortalama}`
-//         document.querySelector(".mesaj").style.color= "green";
-//     }
+// function mesajver(){
+//     alert("selam burası neos yazılım")
+// }
 
-        
+// function basla(){
+//     let say1 = +prompt("1. sayıyı giriniz :")
+//     let say2 = +prompt("2. sayıyı giriniz :")
+//     let sonuc = say1 + say2
+//     alert(sonuc)
 // }
