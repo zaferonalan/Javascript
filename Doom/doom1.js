@@ -283,19 +283,18 @@
 //*?oluşuturulan butonlara tıklandığında  
 //*?paragraf elementine tıklanılan butonun innerHTML'ini yazdırın
 
-
-for (let i = 1; i <= 5; i++) 
-{
-    let buton2 = document.createElement("button")
-    buton2.className="btn"
-    buton2.innerHTML=`button${i}`    
-}
-document.querySelector(".btn").addEventListener("click",function () 
-{
-    let paragraf = document.createElement("p")
-    paragraf.innerHTML=buton2    
-})
-
+// let buttons = document.querySelector(".buttons")
+// for (let i = 1; i <= 5; i++) 
+// {
+//     let Mybuton = document.createElement("button")
+//     Mybuton.innerHTML=`Buton${i}`
+//     buttons.appendChild(Mybuton)
+    
+//     Mybuton.addEventListener("click",function() 
+//     {
+//         document.querySelector(".cikti").innerHTML=Mybuton.innerHTML 
+//     })
+// }
 
 
 
