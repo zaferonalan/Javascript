@@ -61,4 +61,4 @@ let urunlerYazdir = urunler.map(value => {
         </div>
     `
 })
-document.querySelector(".urunler").innerHTML=urunlerYazdir.join("")
+document.querySelector(".urunler").innerHTML=urunlerYazdir.joinn("")
