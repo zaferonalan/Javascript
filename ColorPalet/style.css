@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ColorPalet{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 1rem;
+    width: 600px;
+    display: grid;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hexOlustur{
+    margin-top: .5rem;
+    height: 3rem;
+}

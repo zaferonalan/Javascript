@@ -1,0 +1,11 @@
+.parentBg{
+    background: linear-gradient(45deg,#c31432,#240b36);
+}
+
+.myBtn{
+    background-color: #f5af19;
+    border: none;
+    padding: .5rem;
+    font-weight: bold;
+    color: #240b36;
+}

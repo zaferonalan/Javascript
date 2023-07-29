@@ -1,0 +1,9 @@
+.YorumYap input,textarea,button{
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.alert-danger{
+    display: none;
+}
