@@ -8,21 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <div class="container">
         <div class="row text-white parentBg justify-content-center vh-100 align-items-center">
             <div class="col-10 text-center">
-                <h2>Zırt Bankası Giriş</h2>
-                <input class="w-100 loginPassword" type="password" placeholder="Şifrenizi Giriniz">
-                <input type="checkbox" class="showPass"><span class="passwordText">Şifreyi Göster</span>
-                <button class="w-100 mt-2 myBtn girisBtn">Giriş Yap</button>
+                <h2>Zırt Bankası İşlemler</h2>
+                <p class="bakiye"></p>
+                <select class="w-100 islemler">
+                    <option disabled selected="false">İşlem Seçiniz...</option>
+                    <option>Para Çek</option>
+                    <option>Para Yatır</option>
+                </select>
+                <input class="w-100 my-3 islemTutar" type="text" placeholder="Tutar Giriniz">
+                <button class="myBtn w-100 islemYapbtn">İşlem Yap</button>
+                <a href="islemGecmis.html">İşlemler Geçmişi</a>
                 <div class="alert alert-danger mt-2" role="alert">
-                    Şifreniz Hatalı! Kalan Hakkınız 3
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="App.js"></script>
+    <script src="islemler.js"></script>
 </body>
 </html>
