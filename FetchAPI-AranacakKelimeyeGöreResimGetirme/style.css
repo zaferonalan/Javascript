@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container input{
+    width: 300px;
+    height: 30px;
+    padding: 3px;
+    outline: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container #searchBtn{
+    width: 70px;
+    padding: 3px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.container #clearBtn{
+    width: 70px;
+    padding: 3px;
+    background-color: darkred;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: 30px;
+    padding-inline: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content div{
+    margin-inline: 3%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.content #deleteBtn{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    padding: 5px;
+}
